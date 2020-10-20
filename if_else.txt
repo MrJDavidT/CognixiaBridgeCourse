@@ -1,0 +1,92 @@
+package com.cognixia.jump.bridgeCourse;
+
+import java.util.Scanner;
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+import com.cognixia.jump.bridgeCourse.classes.Animal;
+
+public class HelloWorld {
+
+public static void main(String[] args) {
+
+System.out.println("Hello Everyone KCCO");
+
+// Animal fish = new Animal();
+char char1 = 'a';
+char char2 = 'A';
+
+int a = 5;
+int b = 7;
+int c = 12;
+int d = 50;
+final double PI = 3.14159265;
+int check10 = 10;
+int variable = 0;
+Integer myVariable = Integer.valueOf("3469");
+
+System.out.println(a * b);
+System.out.println(c * PI);
+System.out.println(d / PI);
+System.out.println("char1: " + char1);
+System.out.println(char2 + a);
+System.out.println(char2 * a);
+System.out.println(myVariable + 5);
+System.out.println(check10);
+System.out.println(myVariable + 15);
+System.out.println(check10);
+System.out.println(a % b);
+System.out.println(d % d);
+System.out.println(c / a);
+StringBuffer sbf = new StringBuffer("check10");
+System.out.println(check10 >= myVariable);
+
+if (check10 >= myVariable) {
+
+System.out.println("That would be true");
+
+}
+
+else {
+
+Integer obj = new Integer(check10);
+String str4 = obj.toString();
+System.out.println(str4 + " is not higer than my variable");
+
+String input = str4;
+
+StringBuilder input1 = new StringBuilder();
+
+input1.append(input);
+
+input1 = input1.reverse();
+
+System.out.println(input1);
+
+}
+
+//int intA = 5;
+//int intB = 10;
+//boolean tOrf = false;
+//
+//
+// // = Assignment operator
+// intA = 2;
+//
+// // ! not operator
+// boolean not = !tOrf;
+//
+// // increment and decrement
+// //intA++;
+// //intB+=5;
+// //intB = intB + 5;
+//
+// //intA-=5;
+//
+//
+// // Sample our Output
+// System.out.println(Math.pow(2, 3));
+
+}
+
+}
