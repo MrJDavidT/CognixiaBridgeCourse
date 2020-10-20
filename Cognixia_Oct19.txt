@@ -1,0 +1,71 @@
+package com.cognixia.jump.bridgeCourse;
+
+import java.util.Scanner;
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+import com.cognixia.jump.bridgeCourse.classes.Animal;
+
+public class HelloWorld {
+
+public static void main(String[] args) {
+
+System.out.println("Hello Everyone KCCO");
+
+char char1 = 'a';
+char char2 = 'A';
+
+int a = 5;
+int b = 7;
+int c = 12;
+int d = 50;
+final double PI = 3.14159265;
+int variable = 0;
+boolean check10 = false;
+
+Animal fish = new Animal();
+
+System.out.println(a * b);
+System.out.println(c * PI);
+System.out.println(d / PI);
+System.out.println("char1: " + char1);
+System.out.println(char2 + a);
+System.out.println(char2 * a);
+System.out.println(variable + 5);
+System.out.println(check10);
+System.out.println(variable + 15);
+System.out.println(check10);
+System.out.println(a % b);
+System.out.println(d % d);
+System.out.println(c / a);
+StringBuffer sbf = new StringBuffer("check10");
+System.out.println("String buffer = " + sbf);
+sbf.reverse();
+System.out.println("String buffer after reversing =" + sbf);
+
+
+//int intA = 5;
+//int intB = 10;
+//boolean tOrf = false;
+//
+//
+// // = Assignment operator
+// intA = 2;
+//
+// // ! not operator
+// boolean not = !tOrf;
+//
+// // increment and decrement
+// //intA++;
+// //intB+=5;
+// //intB = intB + 5;
+//
+// //intA-=5;
+//
+//
+// // Sample our Output
+// System.out.println(Math.pow(2, 3));
+
+}
+
+}
