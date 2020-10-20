@@ -1,0 +1,59 @@
+package com.cognixia.jump.bridgeCourse;
+
+import java.util.Scanner;
+
+public class FlowControl {
+
+public static void main(String[] args) {
+
+int testCase;
+
+try {
+Scanner input = new Scanner(System.in);
+
+System.out.println("Please enter the input: ");
+
+// boolean valid = input.hasNextInt();
+testCase = input.nextInt();
+
+// if(valid) {
+// testCase = input.nextInt();
+// }
+// else {
+//
+// testCase = -1;
+// }
+
+switch (testCase) {
+case 1:
+System.out.println("Hello");
+break;
+case 2:
+System.out.println("See you later.");
+break;
+default:
+System.out.println("Please enter only integers");
+}
+
+// if(testCase.equalsIgnoreCase("Hello")) {
+// System.out.println("Hello to you too.");
+// }
+//
+// else if(testCase.equals("Goodbye")) {
+// System.out.println("See you later.");
+// }
+//
+// else {
+// System.out.println("Oh nevermind.");
+// }
+
+System.out.println("Your input was: " + testCase);
+input.close();
+} catch (Exception e) {
+System.out.println("You didn't enter a integer");
+}
+
+testCase = 5;
+}
+
+}
