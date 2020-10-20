@@ -1,0 +1,18 @@
+// Test to show inverse of check10
+
+package com.cognixia.jump.bridgeCourse;
+import java.lang.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		StringBuffer sbf = new StringBuffer("check10");
+		System.out.println("String buffer = " + sbf);
+
+		sbf.reverse();
+		System.out.println("String buffer after reversing =" + sbf);
+
+	}
+
+}
